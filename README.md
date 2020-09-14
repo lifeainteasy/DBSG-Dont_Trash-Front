@@ -1,30 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 기능
 
-## Getting Started
+---
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 로그인
+- 회원가입
+    - 동아리 부장, 동아리 회원, 동아리 관리자 선생님(지도 선생님),
+- 메인페이지
+    - 동아리 검색(선택)
+    - 프로젝트 이름 검색(선택)
+    - 사람이름 검색(선택)
+    - 분야(웹, 앱, 게임,임베디드, 정보보안,데스크탑 앱, 기타 소프트웨어)
+- 프로젝트 업로드
+    - 프로젝트 규모
+        - 게인
+        - 동아리
+        - 수업 시간 프로젝트 EX) 자바프로젝트, 임베디드 프로젝트
+    - 프로젝트 이름
+    - 프로젝트 개요
+        - 프로젝트 배경과 개발 목표
+        - 주요 기능
+        - 서비스 시나리오 및 페르소나
+    - 프로젝트 참여 인원
+        - 이름
+        - 대표사진
+        - 깃허브주소
+        - 페이스북주소
+            - 추가 가능(인스타, 블로그)
+        - 역할
+    - 공개/비공개 설정가능
+    - 개발일자
+        - 달력
+    - 마이페이지
+        - 한줄소개
+        - 한 프로젝트 목록
+        - 깃허브 주소
+        - 역할
+    - 동아리 페이지
+        - 동아리 소개
+            - 동아리 이름
+            - 동아리 목표
+            - 동아리 프로젝트
+            - 동아리 멤버
+            - 동아리 개발 분야
+        - 멘토링(보류)
+            - 멘토링 신청
+                - 멘토
+                - 멘티
